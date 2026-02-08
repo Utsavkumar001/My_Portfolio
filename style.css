@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f0f14;
+    color:white;
+}
+
+/* NAVBAR */
+
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    backdrop-filter: blur(12px);
+    background: rgba(0,0,0,0.3);
+}
+
+.logo{
+    font-weight:700;
+    font-size:22px;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.theme-toggle{
+    background:none;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:0 10%;
+}
+
+.gradient{
+    background:linear-gradient(90deg,#6a5cff,#46c2ff);
+    background-clip: border-box;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.hero h1{
+    font-size:64px;
+}
+
+.hero h2{
+    color:#aaa;
+    margin:10px 0;
+}
+
+.hero p{
+    max-width:500px;
+    margin:20px 0;
+}
+
+/* BUTTONS */
+
+.primary{
+    background:linear-gradient(90deg,#6a5cff,#46c2ff);
+    border:none;
+    padding:14px 28px;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+}
+
+.secondary{
+    margin-left:10px;
+    background:none;
+    border:1px solid #6a5cff;
+    padding:14px 28px;
+    border-radius:10px;
+    color:white;
+}
+
+/* GLASS EFFECT */
+
+.glass{
+    margin:80px 10%;
+    padding:50px;
+    border-radius:20px;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.05);
+}
+
+/* SKILLS */
+
+.skills span{
+    display:inline-block;
+    margin:8px;
+    padding:10px 16px;
+    border-radius:8px;
+    background:#1c1c25;
+}
+
+/* PROJECT GRID */
+
+.project-grid{
+    padding:60px 10%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    padding:30px;
+    border-radius:16px;
+    background:#15151d;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(70,194,255,0.15);
+}
+
+/* CONTACT */
+
+#contact{
+    text-align:center;
+}
+
+.socials a{
+    margin:10px;
+    color:#46c2ff;
+    text-decoration:none;
+}
+
+.tags span{
+    display:inline-block;
+    background:#222;
+    padding:6px 12px;
+    margin:6px 4px;
+    border-radius:6px;
+    font-size:12px;
+}
+
+.project-buttons{
+    margin-top:15px;
+}
+
+.project-buttons button{
+    padding:8px 16px;
+    border:none;
+    border-radius:8px;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+.problem{
+    color:#ffb3b3;
+}
+
+.impact{
+    color:#8affc1;
+}
