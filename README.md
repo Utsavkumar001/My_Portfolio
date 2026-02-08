@@ -9,7 +9,7 @@ that solve real-world problems.
 - Spam Email Classifier
 
 ## 🌐 Live Website
-(Add your GitHub Pages link here)
+https://jolly-gumption-680fa6.netlify.app/
 
 ## 🧠 Tech Stack
 Python | Machine Learning | Deep Learning | JavaScript
